@@ -1,8 +1,8 @@
-import cat1 from "@/assets/1.jpg";
-import cat2 from "@/assets/2.jpg";
+import cat1 from "~/assets/1.jpg";
+import cat2 from "~/assets/2.jpg";
 
-import cat3 from "@/assets/3.png";
-import youtube from "@/assets/youtube.svg";
+import cat3 from "~/assets/3.png";
+import youtube from "~/assets/youtube.svg";
 import Image from "next/image";
 
 
