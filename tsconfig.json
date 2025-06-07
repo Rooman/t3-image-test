@@ -9,6 +9,7 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true,
 
     /* Strictness */
     "strict": true,
@@ -32,6 +33,7 @@
   },
   "include": [
     "next-env.d.ts",
+    "images.d.ts",
     "**/*.ts",
     "**/*.d.ts",
     "**/*.tsx",
