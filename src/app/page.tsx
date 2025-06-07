@@ -14,6 +14,8 @@ export default function HomePage() {
           Create <span className="text-[hsl(280,100%,70%)]">T3</span> App 
         </h1>
 
+        {/* SVG imports are properly typed but ESLint doesn't recognize the declaration */}
+        {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment */}
         Svg test: <Image src={youtube} alt="youtube" />
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
          <Image src={cat1} alt="cat1" />
